@@ -1,0 +1,5 @@
+@echo off
+:: V-3339
+reg ADD "HKLM\System\CurrentControlSet\Control\SecurePipeServers\Winreg\AllowedExactPaths\" /v Machine /t REG_MULTI_SZ /d 0 /f
+
+https://www.stigviewer.com/stig/windows_7/2014-04-02/finding/V-3339

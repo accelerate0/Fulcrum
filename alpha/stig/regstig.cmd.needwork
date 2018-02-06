@@ -1,0 +1,11 @@
+@echo off
+:: V-32282
+
+
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Active Setup\Installed Components 
+
+
+reg ADD "HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components" /v NoHeapTerminationOnCorruption /t REG_DWORD /d 0 /f
+
+https://www.stigviewer.com/stig/windows_7/2014-04-02/finding/V-32282

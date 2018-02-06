@@ -1,0 +1,3 @@
+@echo off
+:: https://www.stigviewer.com/stig/windows_7/2014-04-02/finding/V-1152
+reg ADD "HKLM\System\CurrentControlSet\Control\SecurePipeServers\Winreg " /v NoHeapTerminationOnCorruption /t REG_DWORD /d 0 /f
