@@ -1,9 +1,10 @@
+$e = @()
 do {
 
 
     $e = Read-Host ($env:username + "@Indica")
     $x = 1 # Scrap variable
-
+    $e = $e.Split(',')
 
     if (!$e) { $x -eq $x | out-null } #This is just here as a "Do Nothing" Function, aka make an extra line
     else {
