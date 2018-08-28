@@ -2,7 +2,7 @@ $e = @()
 do {
 
 
-    $e = Read-Host ($env:username + "@Indica")
+    $e = Read-Host ($env:username + "@Fulcrum")
     $x = 1 # Scrap variable
     $e = $e.Split(',')
 

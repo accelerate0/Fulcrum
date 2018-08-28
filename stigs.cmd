@@ -37,7 +37,7 @@
 :: Original STIGS
 
 :: https://www.stigviewer.com/stig/windows_8/2013-02-15/finding/V-4443
-reg add "HKLM\System\CurrentControlSet\Control\SecurePipeServers\Winreg\AllowedPaths\" /v Machine /t REG_MULTI_SZ /d "Software\Microsoft\OLAP Server"\0"Software\Microsoft\Windows NT\CurrentVersion\Perflib"\0"Software\Microsoft\Windows NT\CurrentVersion\Print"\0"Software\Microsoft\Windows NT\CurrentVersion\Windows"\0"System\CurrentControlSet\Control\ContentIndex"\0"System\CurrentControlSet\Control\Print\Printers"\0"System\CurrentControlSet\Control\Terminal Server"\0"System\CurrentControlSet\Control\Terminal Server\UserConfig"\0"System\CurrentControlSet\Control\Terminal Server\DefaultUserConfiguration"\0"System\CurrentControlSet\Services\Eventlog"\0"System\CurrentControlSet\Services\Sysmonlog"\0 /f
+:: reg add "HKLM\System\CurrentControlSet\Control\SecurePipeServers\Winreg\AllowedPaths\" /v Machine /t REG_MULTI_SZ /d "Software\Microsoft\OLAP Server"\0"Software\Microsoft\Windows NT\CurrentVersion\Perflib"\0"Software\Microsoft\Windows NT\CurrentVersion\Print"\0"Software\Microsoft\Windows NT\CurrentVersion\Windows"\0"System\CurrentControlSet\Control\ContentIndex"\0"System\CurrentControlSet\Control\Print\Printers"\0"System\CurrentControlSet\Control\Terminal Server"\0"System\CurrentControlSet\Control\Terminal Server\UserConfig"\0"System\CurrentControlSet\Control\Terminal Server\DefaultUserConfiguration"\0"System\CurrentControlSet\Services\Eventlog"\0"System\CurrentControlSet\Services\Sysmonlog"\0 /f
 
 
 
