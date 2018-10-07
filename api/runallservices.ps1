@@ -9,5 +9,5 @@ else
 }
 
 
-Get-Childitem -Path "$PSScriptRoot\..\service" -Filter *.cmd | % {& $_.FullName}
+Get-Childitem -Path "$PSScriptRoot\..\services" -Filter *.cmd | % {& $_.FullName}
 Get-Childitem -Path "$PSScriptRoot\..\services" -Filter *.ps1 | % {& $_.FullName}
